@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.brand{
+  font-weight: bolder;
+}
+
+.banner{
+  background-image: url("https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdlYXRoZXJ8ZW58MHx8MHx8&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  border-radius: 11px;
+}
+
+.banner-text{
+  margin-top: 10rem;
+}
+
+.banner-highlights{
+  font-weight: bolder;
+  letter-spacing: 0.36rem;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+}
+
+.source{
+  font-style: italic;
+}

@@ -1,0 +1,25 @@
+I use React and bootswatch for the theme. Customize some bootstrap components by using CSS.
+This app is done in 1 day.
+
+If you wanted to change the api key and the location, you need to clone the repo and change the code. 
+Below is the instructions.
+
+
+Changing of API key:
+
+You can see in the components folder, there's a WeatherCard.js file. In the "fetch" for fetching an api, you will change the location api(in my code it is 4217). Change it to your city zipcode. 
+Then change the api key with your own api key next to the zipcode.
+
+After you change your credentials/API key and the zipcode, run the codes by using "npm start" in you terminal to see the changes in the weather for your location.
+
+Packages installed and framework and library used:
+- npm install react-bootstrap bootstrap
+- npm install bootswatch
+- npx create-react-app
+- react
+- CSS
+- react bootstrap components
+
+
+Source for the API: 
+https://developer.accuweather.com/
